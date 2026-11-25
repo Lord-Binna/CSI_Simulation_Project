@@ -1,0 +1,24 @@
+# Fichiers temporaires MATLAB / Simulink
+*.asv
+*.autosave
+*.slxc
+*.mexw64
+*.mexa64
+*.mexmaci64
+slprj/
+sccprj/
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+*.mat~
+*.slx.r20*
+# Résultats lourds (à garder en local)
+resultats/*.mat
+
+# Rapport : seul le PDF est publié
+rapport/*
+!rapport/*.pdf
+
+# Dossiers non publiés
+docs/
+resultats/
